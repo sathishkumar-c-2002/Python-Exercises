@@ -14,6 +14,13 @@ o = fullName.count("o")
 v = fullName.count("v")
 e = fullName.count("e")
 score = str(t+r+u+e) + str(l+o+v+e)
-print(f"Your love score is {score}.")
+
+score = int(score)
+if score<10 or score>90:
+    print(f"Your love score is {score}.You go together like coke and mentos.")
+elif score>=40 or score<=50:
+    print(f"Your love score is {score}.You already together.")
+else:    
+    print(f"Your love score is {score}.")
 
 
