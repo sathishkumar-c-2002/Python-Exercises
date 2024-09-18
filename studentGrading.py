@@ -14,4 +14,4 @@ for i in studentScores:
     if 70>studentScores[i]<=80:
         print(f"{i}'s Grade : Acceptable.")        
     if studentScores[i]<=70:
-        print(f"{i}'s Grade : Fail.")        
+        print(f"{i}'s Grade : Fail.") 
