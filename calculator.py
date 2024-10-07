@@ -23,20 +23,3 @@ while choice:
     if a.lower()=="n":
         choice = False
     num1 = answer
-
-# choice = True
-# while choice:
-#     num3 = int(input("Enter Number 3 : "))
-#     op = input("Enter the operation : ")
-#     calculator = operations[op]
-#     temp = answer
-#     answer = calculator(answer,num3)
-#     print(f"{temp} {op} {num3} = {answer}")
-#     a = input("Do you want to continue Calculation? (Y/N)")
-#     if a.lower()=="n":
-#         choice = False
-        
-    
-
-
-    
